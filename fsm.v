@@ -23,6 +23,12 @@ module fsm(
 	input [3:0]I,       //INPUT I
 	output  reg Y		  //OUTPUT Y
 );
+////////////////////////WRITE YOUR CODE FROM HERE//////////////////// 
+// Tip : Write your code such that Quartus Generates a State Machine 
+//			(Tools > Netlist Viewers > State Machine Viewer).
+// 		For doing so, you will have to properly declare State Variables of the
+//       State Machine and also perform State Assignments correctly.
+//			Use Verilog case statement to design.
 /*
 reg Y1 = 0;
 assign Y = Y1;*/
@@ -112,25 +118,6 @@ begin
 	  default:Y<=0;
 	  endcase
 	  end
-		  
-		  
-		  
-	 
-		  
-				
-
-
-////////////////////////WRITE YOUR CODE FROM HERE//////////////////// 
-	
-
-// Tip : Write your code such that Quartus Generates a State Machine 
-//			(Tools > Netlist Viewers > State Machine Viewer).
-// 		For doing so, you will have to properly declare State Variables of the
-//       State Machine and also perform State Assignments correctly.
-//			Use Verilog case statement to design.
-	
-	
-
 ////////////////////////YOUR CODE ENDS HERE//////////////////////////
 endmodule
 ///////////////////////////////MODULE ENDS///////////////////////////
