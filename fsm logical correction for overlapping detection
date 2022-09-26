@@ -1,0 +1,4 @@
+In the jpeg file i have shown that from state S6 we go to state zero is we encounter an input of 0 or 2 
+This is wrong
+We need to go to S0 if we encounter a zero
+But, we need to go to S3 if we encounter a 2. 
